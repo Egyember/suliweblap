@@ -1,0 +1,49 @@
+body{
+	background-color: blue;
+}
+#fejlec{
+	position: relative;
+	display: block;
+	top 0px;
+	left: 0px;
+	margin: -10px;
+	background-color: #23F20D;
+	color: white;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	font-size: 90px;
+	border: 10px solid red;
+	//border-bottom-style: dotted;
+
+}
+#bal_logo{
+	float: left;
+}
+#menu{
+	position: relative;
+	top: 10px;
+	left: 0;
+	text-align: center;
+	height: 40px;
+	font-family: Arial
+}
+#menu ul{
+	
+}
+#menu li{
+	background-color: red;
+	color: black;
+	list-style-type: none;
+	display: inline;
+}
+#menu li a:link{
+	font-size: 40px;
+	text-decoration: none;
+	//width: ; <-- ez még nem megy -->
+	border: 20px gray;
+}
+#menu li a:hover{
+	color: yellow;
+	background-color: #334422
+}
