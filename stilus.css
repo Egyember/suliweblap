@@ -1,14 +1,13 @@
 body{
-	background-color: blue;
+	background-color: white;
 }
-//fejléc-formázása
 #fejlec{
 	position: relative;
 	display: block;
 	top 0px;
 	left: 0px;
 	margin: -10px;
-	background-color: #23F20D;
+	background-color: red;
 	color: white;
 	text-align: center;
 	height: 100px;
@@ -18,7 +17,6 @@ body{
 	//border-bottom-style: dotted;
 
 }
-//logó-elhejezkedése
 #bal_logo{
 	float: left;
 }
@@ -30,7 +28,6 @@ body{
 	height: 40px;
 	font-family: Arial
 }
-//menü-formázása
 #menu li{
 	background-color: red;
 	color: black;
@@ -38,7 +35,7 @@ body{
 	display: inline;
 }
 #menu li a:link{
-	font-size: 40px;
+	font-size: 35px;
 	text-decoration: none;
 	//width: ; <-- ez még nem megy -->
 	border: 20px gray;
