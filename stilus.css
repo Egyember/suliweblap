@@ -7,8 +7,8 @@ body{
 	top 0px;
 	left: 0px;
 	margin: -10px;
-	background-color: red;
-	color: white;
+	background-color: blue;
+	color: black;
 	text-align: center;
 	height: 100px;
 	width: 100%;
@@ -29,7 +29,7 @@ body{
 	font-family: Arial
 }
 #menu li{
-	background-color: red;
+	background-color: blue;
 	color: black;
 	list-style-type: none;
 	display: inline;
@@ -41,6 +41,6 @@ body{
 	border: 20px gray;
 }
 #menu li a:hover{
-	color: yellow;
+	color: yellow ;
 	background-color: #334422
 }
