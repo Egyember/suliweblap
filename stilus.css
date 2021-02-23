@@ -1,6 +1,7 @@
 body{
 	background-color: blue;
 }
+//fejléc-formázása
 #fejlec{
 	position: relative;
 	display: block;
@@ -17,6 +18,7 @@ body{
 	//border-bottom-style: dotted;
 
 }
+//logó-elhejezkedése
 #bal_logo{
 	float: left;
 }
@@ -28,9 +30,7 @@ body{
 	height: 40px;
 	font-family: Arial
 }
-#menu ul{
-	
-}
+//menü-formázása
 #menu li{
 	background-color: red;
 	color: black;
