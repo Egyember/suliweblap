@@ -14,8 +14,6 @@ body{
 	width: 100%;
 	font-size: 90px;
 	border: 10px solid red;
-	//border-bottom-style: dotted;
-
 }
 #bal_logo{
 	float: left;
@@ -37,7 +35,6 @@ body{
 #menu li a:link{
 	font-size: 35px;
 	text-decoration: none;
-	//width: ; <-- ez még nem megy -->
 	border: 20px gray;
 }
 #menu li a:hover{
