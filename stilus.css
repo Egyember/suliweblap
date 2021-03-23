@@ -26,7 +26,9 @@ body{
 	height: 40px;
 	font-family: Arial;
 	background-color: #34a1ff;
+	//border: 10px solid black; valami baja van// 
 }
+
 #menu li{
 	background-color: #34a1ff;
 	color: black;
@@ -36,9 +38,15 @@ body{
 #menu li a:link{
 	font-size: 35px;
 	text-decoration: none;
-	border: 2px gray;
 }
 #menu li a:hover{
 	color: black ;
 	background-color: #3040e0;
+}
+
+table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	color: black;
+	text-align: center;
 }
