@@ -7,7 +7,7 @@
 <body>
 	<div id="fejlec">
 		<div id="bal_logo">
-		<img src="logo.png" height="100px" width="100px">
+		<img src="./kepek/logo.png" height="100px" width="100px">
 		</div>
 		Juventus
 		<br>
@@ -32,9 +32,26 @@
 				<p id="demo1"> </p>
 			</div>
 			<div id=javademo2>
-			
-		
-		</div>
+				<button onclick="document.getElementById('myImage').src='./kepek/pic_bulbon.gif'">Turn on the light</button>
+				<img id="myImage" src="./kepek/pic_bulboff.gif" style="width:100px">
+				<button onclick="document.getElementById('myImage').src='./kepek/pic_bulboff.gif'">Turn off the light</button>
+			</div>
+			<div id="javademo3">
+			<p id="demo3">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo3").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+			</div>
+			<div id="javademo4">
+			<p id="demo4">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo4').style.display='none'">Click Me!</button>
+			</div>
+			<div id="javademo5">
+			<p id="demo5">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo5').style.fontSize='35px'">Click Me!</button>
+
+			</div>
 	</div>
 </body>
 <footer>
